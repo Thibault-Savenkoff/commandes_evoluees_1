@@ -38,4 +38,12 @@ a) `grep a words`
 
 b) `grep ^t words`
 
-c) `grep ^ex.+se$ words`
+c) `grep ^ex..se$ words`
+
+d) `grep ^.........e$ words`
+
+e) `grep 'a.*b' words`
+
+f) `grep -v 'a' words`
+
+g) `grep '^[^ab]*a[^ab]*b[^ab]*$' words`
